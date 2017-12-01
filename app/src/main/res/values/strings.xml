@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Curiosity_Home_Screen</string>
+    <string name="facebook">Sign In With \t <b>Facebook</b></string>
+    <string name="google">Sign In With \t<b>Google</b></string>
+    <string name="twitter">Sign In With \t<b>Twitter</b></string>
+    <string name="signup"><b>Sign Up</b> With Email</string>
+    <string name="signin"><b>Sign In</b> With Email</string>
+
+</resources>

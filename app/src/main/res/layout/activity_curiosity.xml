@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context="com.padcmyanmar.curiosity_home_screen.ActivityCuriosity">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/layout_curiosity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_curiosity"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/curiositylogo" />
+
+        <Button
+            android:id="@+id/btn_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_curiosity"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="110dp"
+            android:background="#0b132d"
+            android:drawableLeft="@drawable/facebookicon"
+            android:drawablePadding="22dp"
+            android:paddingLeft="10dp"
+            android:text="@string/facebook"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btn_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_facebook"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@drawable/google_icon"
+            android:background="#18254d"
+            android:drawablePadding="17dp"
+            android:text="@string/google"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+
+            />
+
+        <Button
+            android:id="@+id/btn_twitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_google"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:background="#355555"
+            android:drawableLeft="@drawable/tweet"
+            android:paddingLeft="10dp"
+            android:drawablePadding="20dp"
+            android:text="@string/twitter"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+
+            />
+
+        <Button
+            android:id="@+id/btn_signupemail"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_twitter"
+
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/eve"
+            android:drawablePadding="10dp"
+            android:text="@string/signup"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+
+            />
+
+        <Button
+            android:id="@+id/btn_signinemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_twitter"
+            android:layout_alignEnd="@id/btn_twitter"
+           android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/btn_signupemail"
+            android:drawableLeft="@drawable/envelope"
+            android:textAlignment="viewStart"
+            android:drawablePadding="10dp"
+            android:text="@string/signin"
+            android:textAllCaps="false" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_terms_and_condition"
+            android:layout_below="@id/btn_signupemail"
+            android:textColor="#ffffff"
+
+            android:text="Terms and Condition and Privacy Policy"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="70dp"
+            />
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
