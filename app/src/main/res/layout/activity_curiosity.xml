@@ -54,7 +54,6 @@
             android:text="@string/google"
             android:textAlignment="viewStart"
             android:textAllCaps="false"
-
             />
 
         <Button
